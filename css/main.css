@@ -1,6 +1,88 @@
+header{
+	background-color: yellow;
+	padding:0.5em 2em 2em 2em;
+	text-align:center;
+}
+
+	h1{
+	padding: 6em o.75em 0.5em 0em;
+	font-family: 'Sigmar One', cursive;
+	font-weight: bold;
+	font-size: 5rem;
+	margin: 0;
+	color: #A52A2A;
+	text-align: center;
+}
+
+h2{
+	color:#ec0080;
+	font-family: 'Sigmar One', cursive;
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+h3{
+ 	color: #A52A2A;
+	font-family: 'Sigmar One', cursive;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+p{font-style: georgia;
+
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display:inline-block;
+	margin:0.5em;
+	padding: 0.5em 0em 0em 0.5em;
+}
+
+nav a{
+	color: #fff;
+	padding: 0.5em 0.75em;
+	background-color: olive;
+	font-style:georgia;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 4px;
+	width: 10em;
+}
+
+blockquote{color: olive}
+
+figure{
+		text-align: center;
+		border: 3px solid #000;
+		border-color: olive;
+		border-radius: 30px;
+		background-color: #ffffd7;
+		padding:1em 1em 1em 1em;
+		margin: 0em;
+	}
+
+	img{
+		width:100%
+	}
+
 dd{
+	font-style: italic;
 	margin: 0;
 }
 dt{font-weight:bold}
 .per{font-style:italic;}
 .quote{ font-style:italic}
+
+footer{
+
+	background-color: #ffffd7;
+	padding:1em 1em 0.5em 1em;
+	margin:0;
+}
